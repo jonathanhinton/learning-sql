@@ -11,13 +11,13 @@
 
 For each of the following exercises, provide the appropriate query. Yes, even the ones that are expressed in the form of questions. Everything from class and the [Sqlite Documentation](http://www.sqlite.org/) is fair game. No Sharing of Answers.
 
-<!-- 1. Provide a query showing Customers (just their full names, customer ID and country) who are not in the US.
-2. Provide a query only showing the Customers from Brazil. -->
-<!-- 3. Provide a query showing the Invoices of customers who are from Brazil. The resultant table should show the customer's full name, Invoice ID, Date of the invoice and billing country. -->
-<!-- 4. Provide a query showing only the Employees who are Sales Agents.
+1. Provide a query showing Customers (just their full names, customer ID and country) who are not in the US.
+2. Provide a query only showing the Customers from Brazil.
+3. Provide a query showing the Invoices of customers who are from Brazil. The resultant table should show the customer's full name, Invoice ID, Date of the invoice and billing country.
+4. Provide a query showing only the Employees who are Sales Agents.
 5. Provide a query showing a unique list of billing countries from the Invoice table.
-6. Provide a query showing the invoices of customers who are from Brazil. -->
-<!-- 7. Provide a query that shows the invoices associated with each sales agent. The resultant table should include the Sales Agent's full name. -->
+6. Provide a query showing the invoices of customers who are from Brazil.
+7. Provide a query that shows the invoices associated with each sales agent. The resultant table should include the Sales Agent's full name.
 8. Provide a query that shows the Invoice Total, Customer name, Country and Sale Agent name for all invoices and customers.
 9. How many Invoices were there in 2009 and 2011? What are the respective total sales for each of those years?
 10. Looking at the InvoiceLine table, provide a query that COUNTs the number of line items for Invoice ID 37.
