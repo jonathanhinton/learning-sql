@@ -1,0 +1,1 @@
+SELECT BillingCountry, ROUND(SUM(Total), 2) AS 'Total Spent' FROM Invoice GROUP BY BillingCountry ORDER BY 'Total Spent' DESC

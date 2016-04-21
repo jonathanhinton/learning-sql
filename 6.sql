@@ -4,6 +4,6 @@ SELECT
   BillingCountry,
   Total
 FROM
-  Invoice
+  Invoice JOIN Customer ON Customer.CustomerId == Invoice.CustomerId
 WHERE
   BillingCountry == "Brazil"

@@ -1,0 +1,1 @@
+SELECT Artist.Name, COUNT(InvoiceLine.Quantity) FROM InvoiceLine JOIN Track ON InvoiceLine.TrackId == Track.TrackId JOIN Album ON Album.AlbumId == Track.AlbumId JOIN Artist ON Album.ArtistId == Artist.ArtistId GROUP BY Artist.ArtistId ORDER BY COUNT(Artist.ArtistId) DESC LIMIT 3
